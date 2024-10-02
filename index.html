@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="float__select">
+		<div class="box">
+			<span>SELECT AT LEAST 6 ITEMS</span>
+			<p>0</p>
+		</div>
+		<div class="bottom">
+			<p><span>+ FREE</span> CROISSANTS IN EVERY BOX!</p>
+			<span>TOTAL: 4 SERVINGS</span>
+		</div>
+	</div>
+	<div class="main__area">
+		<div class="container">
+			<div class="outer__main">
+				<div class="top__info">
+					<h2>Customize Your Box</h2>
+					<span>Voted #1 in USA TODAY'S Best Subscription Box.</span>
+					<div class="stars">
+						<ul>
+							<li><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><title>Filled star</title><path d="m3.2 16.0001081c-.1687782 0-.33328968-.0531313-.47-.1521081-.24051968-.174488-.36451194-.4679107-.322-.762l.743-5.203-2.917-2.917c-.21191095-.21196521-.28756133-.52460199-.196-.81.09130759-.2851682.3345701-.49522345.63-.544l4.398-.734 2.218-4.435c.13744692-.27145241.41573373-.4426761.72-.443.3045618.00166772.58175678.1761261.715.45l2.123 4.362 4.498.801c.2933158.05211246.5333796.26289081.623.547.0898959.28455453.0135125.59548872-.198.806l-2.917 2.917.744 5.203c.042199.2957461-.0839008.5903645-.327.764-.2421349.1739598-.5609835.1986349-.827.064l-4.382-2.22-4.502 2.223c-.10996656.0547452-.23116004.0831081-.354.0831081z" fill="#f4b925"></path></svg></li>
+							<li><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><title>Filled star</title><path d="m3.2 16.0001081c-.1687782 0-.33328968-.0531313-.47-.1521081-.24051968-.174488-.36451194-.4679107-.322-.762l.743-5.203-2.917-2.917c-.21191095-.21196521-.28756133-.52460199-.196-.81.09130759-.2851682.3345701-.49522345.63-.544l4.398-.734 2.218-4.435c.13744692-.27145241.41573373-.4426761.72-.443.3045618.00166772.58175678.1761261.715.45l2.123 4.362 4.498.801c.2933158.05211246.5333796.26289081.623.547.0898959.28455453.0135125.59548872-.198.806l-2.917 2.917.744 5.203c.042199.2957461-.0839008.5903645-.327.764-.2421349.1739598-.5609835.1986349-.827.064l-4.382-2.22-4.502 2.223c-.10996656.0547452-.23116004.0831081-.354.0831081z" fill="#f4b925"></path></svg></li>
+							<li><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><title>Filled star</title><path d="m3.2 16.0001081c-.1687782 0-.33328968-.0531313-.47-.1521081-.24051968-.174488-.36451194-.4679107-.322-.762l.743-5.203-2.917-2.917c-.21191095-.21196521-.28756133-.52460199-.196-.81.09130759-.2851682.3345701-.49522345.63-.544l4.398-.734 2.218-4.435c.13744692-.27145241.41573373-.4426761.72-.443.3045618.00166772.58175678.1761261.715.45l2.123 4.362 4.498.801c.2933158.05211246.5333796.26289081.623.547.0898959.28455453.0135125.59548872-.198.806l-2.917 2.917.744 5.203c.042199.2957461-.0839008.5903645-.327.764-.2421349.1739598-.5609835.1986349-.827.064l-4.382-2.22-4.502 2.223c-.10996656.0547452-.23116004.0831081-.354.0831081z" fill="#f4b925"></path></svg></li>
+							<li><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><title>Filled star</title><path d="m3.2 16.0001081c-.1687782 0-.33328968-.0531313-.47-.1521081-.24051968-.174488-.36451194-.4679107-.322-.762l.743-5.203-2.917-2.917c-.21191095-.21196521-.28756133-.52460199-.196-.81.09130759-.2851682.3345701-.49522345.63-.544l4.398-.734 2.218-4.435c.13744692-.27145241.41573373-.4426761.72-.443.3045618.00166772.58175678.1761261.715.45l2.123 4.362 4.498.801c.2933158.05211246.5333796.26289081.623.547.0898959.28455453.0135125.59548872-.198.806l-2.917 2.917.744 5.203c.042199.2957461-.0839008.5903645-.327.764-.2421349.1739598-.5609835.1986349-.827.064l-4.382-2.22-4.502 2.223c-.10996656.0547452-.23116004.0831081-.354.0831081z" fill="#f4b925"></path></svg></li>
+							<li><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" role="img"><title>3/4 star</title><path d="M3.2,16C3.031,16 2.867,15.947 2.73,15.848C2.489,15.674 2.365,15.38 2.408,15.086L3.151,9.883L0.234,6.966C0.022,6.754 -0.054,6.441 0.038,6.156C0.129,5.871 0.373,5.661 0.668,5.612L5.066,4.878L7.284,0.443C7.421,0.172 7.7,0 8.004,-0C8.309,0.002 8.586,0.176 8.719,0.45L10.842,4.812L15.34,5.613C15.633,5.665 15.873,5.876 15.963,6.16C16.053,6.445 15.977,6.755 15.765,6.966L12.848,9.883L13.592,15.086C13.634,15.382 13.508,15.676 13.265,15.85C13.023,16.024 12.704,16.049 12.438,15.914L8.056,13.694L3.554,15.917C3.444,15.972 3.323,16 3.2,16ZM9.49,6.603L9.492,12.18L11.286,13.088L10.726,9.176L11.434,8.469L12.724,7.179L9.49,6.603Z" fill="#f4b925"></path></svg></li>
+						</ul>
+						<p>27,383 Reviews</p>
+					</div>
+				</div>
+				<div class="steps">
+					<form action="">
+						<div class="step">
+							<p>1. Select size:</p>
+							<div class="size__selector">
+								<ul>
+									<li>
+										<a href="#" class="current">
+											<p>6 ITEMS</p>
+											<span>MOST POPULAR</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>12 ITEMS</p>
+											<span>BEST VALUE</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="step">
+							<p>2. Select box:</p>
+							<div class="box__selector">
+								<ul>
+									<li>
+										<a href="#" class="current">
+											<p>VARIETY BOX</p>
+											<span>$99</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>GLUTEN-FREE</p>
+											<span>$109</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>PLANT-BASED</p>
+											<span>$99</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fill__box">
+								<label class="switch">
+								  <input type="checkbox">
+								  <span class="slider round"></span>Fill my box with best-selling items
+								</label>
+							</div>
+						</div>
+						<div class="step">
+							<p>3. Leave a comment</p>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="step">
+							<p>3. Choose 12 items & save up to $4 per item:</p>
+							<div class="box__wrapper">
+								<div class="box__info">
+									<div class="el">
+										<span><img src="img/checkgreen.svg" alt="check"></span>
+										<p><span>FREE Croissants</span> for Life!</p>
+									</div>
+									<div class="el">
+										<span><img src="img/checkgreen.svg" alt="check"></span>
+										<p><span>FREE</span> Shipping Always!</p>
+									</div>
+									<div class="el">
+										<span><img src="img/checkgreen.svg" alt="check"></span>
+										<p><span>4 meals</span> donated to GBFB</p>
+									</div>
+									<div class="el">
+										<span><img src="img/checkgreen.svg" alt="check"></span>
+										<p><span>4 Day Notice</span> Cancel Anytime</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</form>
+				</div>
+				<div class="filter__box">
+					<span>Create Your Box</span>
+					<p>Showing:<span>Fruit</span></p>
+					<div class="filter">
+						<span>Filter</span>
+						<div class="dropdown">
+							<a href="#">
+								<span>🍝 Pasta</span>
+							</a>
+							<ul style="display:none;">
+								<li><a href="#" class="current">🍝 Pasta</a></li>
+								<li><a href="#">🥐 Pastries</a></li>
+								<li><a href="#">🍞 Breads </a></li>
+								<li><a href="#">🥐 Pastries</a></li>
+								<li><a href="#">🍞 Breads </a></li>
+								<li><a href="#">🥐 Pastries</a></li>
+								<li><a href="#">🍞 Breads </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main__flow">
+					<div class="element">
+						<div class="title">
+							<p>Breads 🍞</p>
+						</div>
+						<div class="grid">
+							<div class="elem">
+								<span class="in__the--box">In the box</span>
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+							<div class="elem">
+								<span class="in__the--box">In the box</span>
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem disabled">
+								<div class="media">
+									<span class="full">Your box is full</span>
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem disabled">
+								<div class="media">
+									<span class="full">Your box is full</span>
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem disabled">
+								<div class="media">
+									<span class="full">Your box is full</span>
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf qwef qweffqwefwefqwef wwe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="element">
+						<div class="title">
+							<p>Pasta 🍝</p>
+						</div>
+						<div class="grid">
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf qwef qweffqwefwefqwef wwe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="element">
+						<div class="title">
+							<p>Pastries 🥐</p>
+						</div>
+						<div class="grid">
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf qwef qweffqwefwefqwef wwe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="element">
+						<div class="title">
+							<p>SEASONAL SPECIALS</p>
+						</div>
+						<div class="grid">
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+									<div class="running__out">
+										<span>Running out soon!</span>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+									<div class="running__out">
+										<span>Running out soon!</span>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+									<div class="running__out">
+										<span>Running out soon!</span>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+									<div class="running__out">
+										<span>Running out soon!</span>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf</p>
+								</div>
+							</div>
+
+
+							<div class="elem">
+								<div class="media">
+									<div class="info">i</div>
+									<img src="img/baton.webp" alt="baton">
+								</div>
+								<div class="desc">
+									<div class="amount">
+										<div class="inn__amount">
+											<a href="#">-</a>
+											<input type="text" readonly="" value="1">
+											<a href="#">+</a>
+										</div>
+									</div>
+									<a href="#"><span>+</span> ADD</a>
+									<p>Plain Sourdough Loaf qwef qweffqwefwefqwef wwe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="info__popup" style="display:none;">
+		<div class="inner">
+			<div class="popup">
+				<a href="#" class="close">
+					<svg width="32px" height="32px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>close</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-409.000000, 0.000000)"><g id="icons/close" transform="translate(409.000000, 0.000000)"><circle id="Oval" cx="20" cy="20" r="20"></circle><g id="close" stroke-width="1" transform="translate(14.000000, 14.000000)" stroke-linecap="round"><line id="Path-6" x1="0" y1="0" x2="12" y2="12" stroke-width="2"></line><line id="Path-6" x1="0" y1="0" x2="12" y2="12" stroke-width="2" transform="translate(6.000000, 6.000000) scale(1, -1) translate(-6.000000, -6.000000) "></line></g></g></g></g></svg>
+				</a>
+				<div class="inner__box">
+					<div class="title">
+						<h6>Plain Sourdough Loaf</h6>
+					</div>
+					<div class="inn">
+						<div class="media">
+							<img src="img/baton.webp" alt="baton">
+						</div>
+						<div class="desc">
+							<p><span class="bold">Contains Honey.</span></p>
+							<p>Our 3-seed loaf is a delicious blend of millet, poppy seeds, sesame seeds, pumpkin seeds, and honey. Soft and flavorful, it's perfect for breakfast or snacking. Pair it with a creamy avocado spread for a delicious treat.</p>
+							<p><span class="bold">Ingredients:</span> Whole Wheat And Wheat Flour, Yeast, Water, Millet, Poppy Seeds, Sesame Seeds, Pumpkin Seeds, Honey, Salt.
+							Contains: Wheat, Seeds. <br>
+							May contain: Eggs, Soy, Tree Nuts, Milk, Sesame Seeds.</p>
+							<p><span class="bold">Contains:</span> Wheat. <br>
+							<span class="bold">May Contain:</span> Tree Nuts, Egg, Milk, Sesame, Soy.</p>
+							<div class="video">
+								<video src="video/7565438-hd_1080_1920_25fps.mp4" data-src="" controls playsinline loop autoplay muted></video>
+							</div>
+							<div class="partner">
+								<span>Because we partner with small artisan bakers and pasta makers across the country, our ingredient lists and nutrition facts may be slightly different for the same product depending on where you live. Make sure to read the nutrition information on the product packaging if you have any questions or concerns.</span>
+							</div>
+							<div class="nutrition__media">
+								<img src="img/nutrition.svg" alt="nutrition">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
